@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A38F3BF-0F1E-4466-A8AF-3FC43D6C1D2B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</key>
+		<string>https://github.com/rentzsch/mach_inject.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</key>
+		<string>mach_inject</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rentzsch/mach_inject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mach_inject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

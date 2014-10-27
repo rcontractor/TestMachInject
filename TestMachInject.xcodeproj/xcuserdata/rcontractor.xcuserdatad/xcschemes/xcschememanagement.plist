@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Payload.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>TestMachInject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>com.ruchi.TestMachInject.Injector.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>com.ruchi.TestMachInject.Installer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7ABE652719DF49CF009A1425</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ABE653A19DF49CF009A1425</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ABE667819DF4FF5009A1425</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ABE668319DF5006009A1425</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ABE668E19DF5022009A1425</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

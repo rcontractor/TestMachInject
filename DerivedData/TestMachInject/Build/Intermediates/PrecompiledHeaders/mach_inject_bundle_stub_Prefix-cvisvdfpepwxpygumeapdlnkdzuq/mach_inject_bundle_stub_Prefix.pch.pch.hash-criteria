@@ -1,0 +1,17 @@
+-x
+c
+-arch
+x86_64
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+-fasm-blocks
+-mmacosx-version-min=10.9
+-g
+-I/Users/rcontractor/Documents/TestMachInject/DerivedData/TestMachInject/Build/Products/Development/include
+-F/Users/rcontractor/Documents/TestMachInject/DerivedData/TestMachInject/Build/Products/Development
+x86_64-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.51)"
+SDK_PRODUCT_BUILD_VERSION=13F26
+13F26
