@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A03270A19FEAEE000FC1F01 /* mach_inject_bundle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ABE667419DF4F7C009A1425 /* mach_inject_bundle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A03270C19FEAF8600FC1F01 /* Payload-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A03270B19FEAF8600FC1F01 /* Payload-Info.plist */; };
 		7ABE652E19DF49CF009A1425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE652D19DF49CF009A1425 /* main.m */; };
 		7ABE653119DF49CF009A1425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE653019DF49CF009A1425 /* AppDelegate.m */; };
 		7ABE653319DF49CF009A1425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE653219DF49CF009A1425 /* Images.xcassets */; };
@@ -17,7 +19,6 @@
 		7ABE656819DF4E90009A1425 /* FEInstaller-Launchd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE655719DF4E90009A1425 /* FEInstaller-Launchd.plist */; };
 		7ABE656919DF4E90009A1425 /* FEInstaller.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE655919DF4E90009A1425 /* FEInstaller.1 */; };
 		7ABE656A19DF4E90009A1425 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE655A19DF4E90009A1425 /* LICENSE */; };
-		7ABE656E19DF4E90009A1425 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE655F19DF4E90009A1425 /* Info.plist */; };
 		7ABE669819DF535A009A1425 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABE669719DF535A009A1425 /* Cocoa.framework */; };
 		7ABE669919DF5375009A1425 /* FEInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE655019DF4E90009A1425 /* FEInjector.m */; };
 		7ABE669A19DF5384009A1425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE655219DF4E90009A1425 /* main.m */; };
@@ -81,6 +82,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7A03270919FEAECA00FC1F01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7A03270A19FEAEE000FC1F01 /* mach_inject_bundle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7ABE667719DF4FF5009A1425 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A03270B19FEAF8600FC1F01 /* Payload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Payload-Info.plist"; sourceTree = "<group>"; };
 		7ABE652819DF49CF009A1425 /* TestMachInject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMachInject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE652C19DF49CF009A1425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABE652D19DF49CF009A1425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -149,9 +161,6 @@
 		7ABE655A19DF4E90009A1425 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7ABE655B19DF4E90009A1425 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7ABE655C19DF4E90009A1425 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7ABE655E19DF4E90009A1425 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7ABE655F19DF4E90009A1425 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ABE656019DF4E90009A1425 /* Payload-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Payload-Prefix.pch"; sourceTree = "<group>"; };
 		7ABE666E19DF4F7B009A1425 /* mach_inject_bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mach_inject_bundle.xcodeproj; path = mach_inject/mach_inject_bundle/mach_inject_bundle.xcodeproj; sourceTree = "<group>"; };
 		7ABE667919DF4FF5009A1425 /* com.ruchi.TestMachInject.Installer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.ruchi.TestMachInject.Installer; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE667B19DF4FF5009A1425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -169,7 +178,6 @@
 		7ABE66AB19E30504009A1425 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		7ABE66B019E30BE4009A1425 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7ABE66B519E310ED009A1425 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7ABE66B619E310ED009A1425 /* Payload-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Payload-Info.plist"; sourceTree = "<group>"; };
 		7ABE66B719E310ED009A1425 /* Payload-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Payload-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,7 +234,6 @@
 				7ABE666E19DF4F7B009A1425 /* mach_inject_bundle.xcodeproj */,
 				7ABE654B19DF4E90009A1425 /* FEInjector */,
 				7ABE655319DF4E90009A1425 /* FEInstaller */,
-				7ABE655D19DF4E90009A1425 /* Payload */,
 				7ABE652A19DF49CF009A1425 /* TestMachInject */,
 				7ABE653E19DF49CF009A1425 /* TestMachInjectTests */,
 				7ABE667A19DF4FF5009A1425 /* com.ruchi.TestMachInject.Installer */,
@@ -319,16 +326,6 @@
 			path = FEInstaller;
 			sourceTree = "<group>";
 		};
-		7ABE655D19DF4E90009A1425 /* Payload */ = {
-			isa = PBXGroup;
-			children = (
-				7ABE655E19DF4E90009A1425 /* main.m */,
-				7ABE655F19DF4E90009A1425 /* Info.plist */,
-				7ABE656019DF4E90009A1425 /* Payload-Prefix.pch */,
-			);
-			path = Payload;
-			sourceTree = "<group>";
-		};
 		7ABE666F19DF4F7B009A1425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,8 +353,8 @@
 		7ABE66B319E310ED009A1425 /* Payload */ = {
 			isa = PBXGroup;
 			children = (
+				7A03270B19FEAF8600FC1F01 /* Payload-Info.plist */,
 				7ABE66B519E310ED009A1425 /* main.m */,
-				7ABE66B619E310ED009A1425 /* Payload-Info.plist */,
 				7ABE66B719E310ED009A1425 /* Payload-Prefix.pch */,
 			);
 			path = Payload;
@@ -372,6 +369,7 @@
 			buildPhases = (
 				7ABE652419DF49CF009A1425 /* Sources */,
 				7ABE652519DF49CF009A1425 /* Frameworks */,
+				7A03270919FEAECA00FC1F01 /* CopyFiles */,
 				7ABE652619DF49CF009A1425 /* Resources */,
 				7ABE66DA19E45C43009A1425 /* Copy Files */,
 				7ABE66DD19E45C7D009A1425 /* CopyFiles */,
@@ -507,11 +505,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A03270C19FEAF8600FC1F01 /* Payload-Info.plist in Resources */,
 				7ABE66B219E30E62009A1425 /* MainMenu.xib in Resources */,
 				7ABE66AF19E305D7009A1425 /* Info.plist in Resources */,
 				7ABE66AE19E30532009A1425 /* Payload.bundle in Resources */,
 				7ABE656719DF4E90009A1425 /* FEInstaller-Info.plist in Resources */,
-				7ABE656E19DF4E90009A1425 /* Info.plist in Resources */,
 				7ABE653319DF49CF009A1425 /* Images.xcassets in Resources */,
 				7ABE656119DF4E90009A1425 /* FEInjector-Info.plist in Resources */,
 				7ABE656819DF4E90009A1425 /* FEInstaller-Launchd.plist in Resources */,
@@ -817,7 +815,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Payload/Info.plist;
+				INFOPLIST_FILE = "Payload/Payload-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -831,7 +829,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Payload/Info.plist;
+				INFOPLIST_FILE = "Payload/Payload-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

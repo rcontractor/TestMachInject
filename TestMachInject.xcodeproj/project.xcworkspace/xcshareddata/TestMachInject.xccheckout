@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0A38F3BF-0F1E-4466-A8AF-3FC43D6C1D2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestMachInject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</key>
 		<string>https://github.com/rentzsch/mach_inject.git</string>
+		<key>7DF3B3629D35D7531587BDC5830180ED7A42C51A</key>
+		<string>github.com:rcontractor/TestMachInject.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestMachInject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</key>
-		<string>mach_inject</string>
+		<string>../../../mach_inject</string>
+		<key>7DF3B3629D35D7531587BDC5830180ED7A42C51A</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rentzsch/mach_inject.git</string>
+	<string>github.com:rcontractor/TestMachInject.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</string>
+	<string>7DF3B3629D35D7531587BDC5830180ED7A42C51A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>574D8E9D44B3AACD173E49322BFC661C9F3A0A33</string>
 			<key>IDESourceControlWCCName</key>
 			<string>mach_inject</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DF3B3629D35D7531587BDC5830180ED7A42C51A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestMachInject</string>
 		</dict>
 	</array>
 </dict>
